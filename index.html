@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WP homework2 -- photo album</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="styles.css"
+  />
+</head>
+<body>
+  <div class="top">
+    <div class="title">photo album</div>
+    <div class="about" onclick="addAlbum()">album+</div>
+    <div class="about" onclick="about()">about</div>
+    <div class="navigation" id="nav">
+        <div class="button_1" id = "dog" onclick="chooseAlbum()" oncontextmenu="deleteAlbum()">dog</div>
+        <div class="button_1" id = "food" onclick="chooseAlbum()" oncontextmenu="deleteAlbum()">food</div>
+        <div class="button_1" id = "empty" onclick="chooseAlbum()" oncontextmenu="deleteAlbum()">empty</div>
+    </div>
+  </div>
+  <div class="bottom" id="bottom">
+  <div class="bottom_left">
+      <div class="preview">
+          <div class="preview_inside">
+              <img src="" alt="" height="100%" width="100%" id="display"></img>
+          </div>
+          <div class="album_name" id="name"></div>
+          <div class="number" id="num"></div>
+      </div> 
+      <div class="button_2" onclick="addPhoto()">photo+</div>
+  </div>
+  <div class="bottom_right">
+    <div class="picture_set" id="picSet">
+    </div>
+</div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
