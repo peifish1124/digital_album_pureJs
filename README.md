@@ -1,5 +1,7 @@
 # wp1101
-### hw2
+## Basic JavaScript 練習 — 數位相簿之動態網頁
+### hw1、hw2
+- <img width="1440" alt="截圖 2022-02-24 下午2 06 25" src="https://user-images.githubusercontent.com/58721888/155467917-2ff9f951-d748-4943-9fb2-cebe9ea1dbb6.png">
 - 作業基本要求
   - 相片展示窗格應顯示 “首張相片”，此相片對應之預覽圖有粗框且具唯一性
   - 滑鼠 hover 到預覽圖上面時：微放大、四角縮邊框、透明度高 -> 表示可以點擊
